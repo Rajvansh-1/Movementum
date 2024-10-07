@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoveMentum.raj</title>
+    <link rel="stylesheet" href="class.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <span class="logo-green">MOVE</span>
+            <span class="logo-white">MEN</span>
+            <span class="logo-orange">TUM</span>
+        </div>
+        <nav>
+            <a href="#products">Products</a>
+            <a href="#cart">Cart</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to MoveMentum.raj</h1>
+        <p>Your one-stop shop for all your sports gear needs</p>
+        <a href="#products" class="btn-hero">Shop Now</a>
+    </section>
+
+  
+            <!-- Products Section -->
+<section id="products" class="products-section">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+        <!-- Cricket Products -->
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb1tXoK2qprTBmlEYQwZaauykHqslpi7XeEA&s" alt="Cricket Bat">
+            <h3>Premium Cricket Bat</h3>
+            <p>Rs.1499</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5SoQXH_qVI36WDdk7lTB9pppUivH7dwHE5Q&s" alt="Cricket Ball">
+            <h3>Professional Cricket Ball</h3>
+            <p>Rs.199</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB2-0CqJLp1NyR_vN6GMZx83cfZrzqkrAsdQ&s" alt="Cricket Gloves">
+            <h3>Cricket Gloves</h3>
+            <p>Rs.399</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Badminton Products -->
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3bBqIRBhhCrClkZDn8bMHn6pwTquXfGlcTQ&s" alt="Badminton Racket">
+            <h3>Badminton Racket</h3>
+            <p>Rs.799</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcGaM8U53lAEKx1j0QY0TVm75sb1B8YO1Geg&s" alt="Shuttlecock">
+            <h3>Shuttlecock Pack</h3>
+            <p>Rs.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Hockey Products -->
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRKEyaSDgLAcXa3zC02vUFriuWLEahXy0SeQ&s" alt="Hockey Stick">
+            <h3>Professional Hockey Stick</h3>
+            <p>Rs.1899</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkuISUjAeGsRD9AZ-VvqU-zGRta1l2gxB1DA&s" alt="Hockey Ball">
+            <h3>Hockey Ball</h3>
+            <p>Rs.299</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Other Sports Gear -->
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQusE0-IE3FX-sgPeQ2jp0yAagulCmybuSbcQ&s" alt="Football">
+            <h3>Standard Football</h3>
+            <p>Rs.1399</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYdaAgMYUb53z5njtQwQRPpuJiVZjIJ0z2Jw&s" alt="Basketball">
+            <h3>Basketball</h3>
+            <p>Rs.599</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl_Rb-Eyz9JooB8xWus1EbQ8OviNG3FJz7hw&s" alt="Tennis Racket">
+            <h3>Tennis Racket</h3>
+            <p>Rs.1299</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="data:image/jpeg;base64,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" alt="Tennis Racket">
+            <h3>Javelin Sick</h3>
+            <p>Rs.1299</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="data:image/jpeg;base64,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" alt="Tennis Racket">
+            <h3>Indian Team Jersey</h3>
+            <p>Rs.1299</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+      <!-- Hidden Products (for "Load More" feature) -->
+      <div class="product-card hidden">
+        <img src="shoes.jpg" alt="Sports Shoes">
+        <h3>Sports Shoes</h3>
+        <p>$49.99</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product-card hidden">
+        <img src="jersey.jpg" alt="Sports Jersey">
+        <h3>Sports Jersey</h3>
+        <p>$39.99</p>
+        <button>Add to Cart</button>
+    </div>
+    <!-- Add more hidden products as needed -->
+</div>
+
+<!-- Load More Button -->
+<button id="loadMoreBtn" class="btn-load-more">Load More</button>
+</section>
+</section>
+
+            <!-- Add more product cards similarly -->
+        </div>
+        
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>For inquiries, please contact us at <a href="mailto:sampark@movementum.raj">sampark@movementum.raj</a></p>
+        <p>Phone: nhi bataunga 😁</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 MoveMentum.raj. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
